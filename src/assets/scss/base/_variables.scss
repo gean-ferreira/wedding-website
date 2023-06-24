@@ -1,0 +1,19 @@
+$primary: red;
+$secondary: gray;
+
+$spacings: (
+	1: 8px,
+	2: 16px,
+	3: 24px,
+	4: 32px,
+	5: 40px
+);
+
+$breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	hd: 1920px
+);

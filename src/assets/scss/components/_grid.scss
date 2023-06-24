@@ -1,0 +1,27 @@
+.container {
+	margin: 0 auto;
+
+	@media (min-width: map-get($breakpoints, md)) {
+		max-width: map-get($breakpoints, md);
+	}
+
+	@media (min-width: map-get($breakpoints, lg)) {
+		max-width: map-get($breakpoints, lg);
+	}
+
+	@media (min-width: map-get($breakpoints, xl)) {
+		max-width: map-get($breakpoints, xl);
+	}
+
+	@media (min-width: map-get($breakpoints, xxl)) {
+		max-width: map-get($breakpoints, xxl);
+	}
+}
+
+.container-hd {
+	margin: 0 auto;
+
+	@media (min-width: map-get($breakpoints, hd)) {
+		max-width: map-get($breakpoints, hd);
+	}
+}
