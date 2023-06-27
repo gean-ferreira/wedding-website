@@ -6,19 +6,19 @@
 	$: isActive = (path: string) => currentPath === path;
 
 	const menuItems = [
-		{ href: "/nossa-historia", text: "Nossa história" },
-		{ href: "/informacoes-casamento", text: "Informações do Casamento" },
-		{ href: "/rsvp", text: "RSVP" },
-		{ href: "/lista-presentes", text: "Lista de presentes" },
-		{ href: "/fotos", text: "Fotos" },
-		{ href: "/faq", text: "FAQ" },
-		{ href: "/contato", text: "Contato" },
+		{ href: '/nossa-historia', text: 'Nossa história' },
+		{ href: '/informacoes-casamento', text: 'Informações do Casamento' },
+		{ href: '/rsvp', text: 'RSVP' },
+		{ href: '/lista-presentes', text: 'Lista de presentes' },
+		{ href: '/fotos', text: 'Fotos' },
+		{ href: '/faq', text: 'FAQ' },
+		{ href: '/contato', text: 'Contato' }
 	];
 </script>
 
 <nav class="nav container">
 	<div class="nav__logo">
-		<img src="" alt="Logo casamento Gean & Jullyana" />
+		<a href="/"><img src="" alt="Logo casamento Gean & Jullyana" /></a>
 	</div>
 	<ul class="nav__list">
 		{#each menuItems as item (item.href)}
@@ -30,7 +30,6 @@
 		{/each}
 	</ul>
 </nav>
-
 
 <style lang="scss">
 	.nav {
